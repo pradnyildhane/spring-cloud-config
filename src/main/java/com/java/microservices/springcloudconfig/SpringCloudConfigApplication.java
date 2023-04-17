@@ -10,6 +10,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableDiscoveryClient
 public class SpringCloudConfigApplication {
 
+	//Sample comment for git commit
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudConfigApplication.class, args);
 	}
